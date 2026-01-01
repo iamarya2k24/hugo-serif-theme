@@ -97,6 +97,11 @@ Copy the entire contents of the `mynewsite/themes/hugo-serif-theme/exampleSite/`
 cp -a themes/hugo-serif-theme/exampleSite/. .
 ```
 
+Remove hugo.toml -- Thanks to https://github.com/bitsflippin-tech-services/bitsflippin.com/pull/5
+```
+rm -f hugo.toml 
+```
+
 **5. Run Hugo**
 
 After installing the theme for the first time, generate the Hugo site.
